@@ -1,0 +1,279 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #ee9c5b;
+  text-align: center;
+  cursor: pointer;
+}
+a {
+  color: #fff;
+  font-style: normal;
+}
+.whiteDesc {
+  color: black;
+  background-color: #eeebc9;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+.desc {
+  color: white;
+  position: relative;
+  background-color: #302f3a;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6,
+.bgimg-7,
+.bgimg-8,
+.bgimg-9,
+.bgimg-10,
+.bgimg-11,
+.bgimg-12 {
+  position: relative;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("IMG_2294.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://i.imgur.com/gYnVDFI.jpg");
+  min-height: 800px;
+}
+
+.bgimg-3 {
+  background-image: url("https://i.imgur.com/fumK5gG.jpg");
+  min-height: 800px;
+}
+.bgimg-4 {
+  background-image: url("https://i.imgur.com/kKxx5sh.jpg");
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bgimg-5 {
+  background-image: url("https://i.imgur.com/DPd00sO.jpg");
+  min-height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bgimg-6 {
+  background-image: url("https://i.imgur.com/KL6ppUR.jpg");
+  min-height: 100%;
+}
+.bgimg-7 {
+  background-image: url("https://i.imgur.com/hRzX3pV.jpg");
+  min-height: 100%;
+}
+.bgimg-8 {
+  background-image: url("img_8.jpeg");
+  min-height: 100%;
+}
+.bgimg-9 {
+  background-image: url("img_9.jpeg");
+  min-height: 100%;
+}
+.bgimg-10 {
+  background-image: url("img_10.jpeg");
+  min-height: 100%;
+}
+.bgimg-11 {
+  background-image: url("img_11.jpeg");
+  min-height: 100%;
+}
+.bgimg-12 {
+  background-image: url("IMG_2294.jpeg");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .name {
+  background-color: transparent;
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: white;
+  font-weight: bold;
+}
+.red {
+  text-shadow: 0 0 10px red, 0 0 50px red;
+}
+.orange {
+  text-shadow: 0 0 10px red, 0 0 50px yellow;
+}
+.yellow {
+  text-shadow: 0 0 10px yellow, 0 0 50px yellow;
+}
+.green {
+  text-shadow: 0 0 10px yellow, 0 0 50px blue;
+}
+.blue {
+  text-shadow: 0 0 10px blue, 0 0 50px blue;
+}
+.purple {
+  text-shadow: 0 0 10px red, 0 0 50px blue;
+}
+.white {
+  text-shadow: 0 0 10px white, 0 0 50px white;
+}
+.gray {
+  text-shadow: 0 0 10px white, 0 0 50px black;
+}
+.black {
+  text-shadow: 0 0 10px black, 0 0 50px black;
+}
+.brown {
+  text-shadow: 0 0 10px brown, 0 0 50px brown;
+}
+.caption span.border {
+  background-color: black;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.name {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3,
+  .bg-img-4,
+  .bg-img-5 {
+    background-attachment: scroll;
+  }
+}
+h1 {
+  cursor: pointer;
+}
+h1 span {
+  transition: 0.5s;
+}
+h1.red:hover span {
+  color: darkred;
+  text-shadow: 0 0 10px darkred, 0 0 50px;
+}
+h1.orange:hover span {
+  color: orange;
+  text-shadow: 0 0 10px orangered, 0 0 20px;
+}
+h1.yellow:hover span {
+  color: yellow;
+  text-shadow: 0 0 10px yellow, 0 0 20px;
+}
+h1.green:hover span {
+  color: green;
+  text-shadow: 0 0 10px darkgreen, 0 0 20px;
+}
+h1.blue:hover span {
+  color: blue;
+  text-shadow: 0 0 10px darkblue, 0 0 20px;
+}
+h1.purple:hover span {
+  color: purple;
+  text-shadow: 0 0 10px darkmagenta, 0 0 20px;
+}
+h1.white:hover span {
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 20px;
+}
+h1.gray:hover span {
+  color: gray;
+  text-shadow: 0 0 10px darkgray, 0 0 20px;
+}
+h1.black:hover span {
+  color: black;
+  text-shadow: 0 0 10px black, 0 0 20px;
+}
+h1.brown:hover span {
+  color: chocolate;
+  text-shadow: 0 0 10px brown, 0 0 20px;
+}
+.rainbow-letters {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.rainbow-letters span:nth-child(10n + 1) {
+  color: #ef5350;
+}
+
+.rainbow-letters span:nth-child(10n + 2) {
+  color: #ab47bc;
+}
+
+.rainbow-letters span:nth-child(10n + 3) {
+  color: #651fff;
+}
+
+.rainbow-letters span:nth-child(10n + 5) {
+  color: #3949ab;
+}
+
+.rainbow-letters span:nth-child(10n + 4) {
+  color: #2196f3;
+}
+
+.rainbow-letters span:nth-child(10n + 6) {
+  color: #00bcd4;
+}
+
+.rainbow-letters span:nth-child(10n + 7) {
+  color: #4caf50;
+}
+
+.rainbow-letters span:nth-child(10n + 8) {
+  color: #ffc107;
+}
+.rainbow-letters span:nth-child(10n + 9) {
+  color: salmon;
+}
+.rainbow-letters span:nth-child(10n + 10) {
+  color: paleturquoise;
+}
